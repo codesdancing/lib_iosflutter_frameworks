@@ -6,7 +6,7 @@
 git add .
 git commit -m "commit and push"
 git push
-git tag -a 0.0.3 -m 'version 0.0.3'
+git tag -a 0.0.4 -m 'version 0.0.4'
 git push origin --tags
 git tag # show tags
 ```
@@ -23,5 +23,5 @@ pod repo push codesdancing FlutterFrameworks.podspec --allow-warnings --verbose
 source 'https://cdn.cocoapods.org/'
 source 'https://github.com/krmao/libsforios.git'
 source 'https://github.com/codesdancing/org_cocoapods.git'
-pod 'FlutterFrameworks', '~>0.0.3'
+pod 'FlutterFrameworks', '~>0.0.4'
 ```

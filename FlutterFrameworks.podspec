@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterFrameworks'
-  s.version          = '0.0.2'
+  s.version          = '0.0.4'
   s.summary          = 'Flutter and business frameworks'
   s.description      = <<-DESC
   FlutterFrameworks contains flutter and business frameworks.
