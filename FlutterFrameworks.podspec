@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlutterFrameworks'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'Flutter and business frameworks'
   s.description      = <<-DESC
   FlutterFrameworks contains flutter and business frameworks.
@@ -13,10 +13,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.subspec 'Debug' do |ss|
-    ss.vendored_frameworks = 'FlutterFrameworks/Debug/*.*'
+    ss.vendored_frameworks = 'FlutterFrameworks/Debug/*.h'
+    ss.vendored_frameworks = 'FlutterFrameworks/Debug/*.xcframework'
   end
 
   s.subspec 'Release' do |ss|
-    ss.vendored_frameworks = 'FlutterFrameworks/Release/*.*'
+    ss.vendored_frameworks = 'FlutterFrameworks/Release/*.h'
+    ss.vendored_frameworks = 'FlutterFrameworks/Release/*.xcframework'
   end
 end
